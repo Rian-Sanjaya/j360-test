@@ -1,0 +1,188 @@
+.navigation {
+  background: rgb(214, 209, 209);
+  display: flex;
+  padding: 5px 10px;
+}
+
+.nav-logo {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  /* text-decoration: none; */
+  display: block;
+  padding: 3px 10px;
+  font-size: 16px;
+  border-right: 1px solid;
+  color: #6493bc;
+}
+
+.home {
+  background-image: url("../images/main-background-untuk-home-area.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.titipkan {
+  display: flex;
+  padding: 30px;
+  justify-content: flex-end;
+}
+
+.titipkan button {
+  /* border: none; */
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.special {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  background: #f2f1f0;
+}
+
+.sp-unit {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-img-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sp-img {
+  width: 100%;
+  height: auto;
+}
+
+.sp-title,
+.sp-desc {
+  text-align: center;
+}
+
+.rekomendasi {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.rk-img-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.rk-img {
+  width: 90%;
+  height: auto;
+}
+
+.rk-span {
+  display: inline-block;
+  width: 200px;
+}
+
+.rk-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rk-desc,
+.rk-sub-desc,
+.rk-sub-desc2 {
+  font-size: 14px;
+  /* font-weight: 600; */
+}
+
+.rk-img-container,
+.rk-title,
+.rk-desc {
+  margin-bottom: 10px;
+}
+
+.rk-sub-desc {
+  margin-bottom: 5px;
+}
+
+.article {
+  padding: 60px;
+  background: #f2f1f0;
+}
+
+.article .title {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.article .content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 10px;
+}
+
+.article .content .col1,
+.article .content .col2 {
+  padding-right: 10px;
+}
+
+.article .button {
+  display: flex;
+  justify-content: center;
+}
+
+.article button {
+  cursor: pointer;
+  border: 1px solid;
+  padding: 2px 5px;
+}
+
+.footer {
+  background: #00A7F0;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer .address {
+  font-size: 14px;
+}
+
+.footer .col2,
+.footer .col3 {
+  padding-top: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
